@@ -1,12 +1,57 @@
 <html>
-  <head>
-    <title>Hello, world!</title>
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-  </head>
-  <body>
-    <h1>Learn Fast!</h1>
-    <p>
-      Back soon.
-    </p>
-  </body>
+<head>
+  <title>Hello, world!</title>
+  <link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/style1.css">
+</head>
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://learnfast-146602.appspot.com/">Learn Fast</a>
+      </div>
+      <div id="navbar" class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div><!--/.nav-collapse -->
+    </div>
+  </nav>
+  <div class="jumbotron text-center">
+    <h1>Learn Fast</h1>
+    <p>Get personalized feedback from experts to get better 5x faster</p>
+  </div>
+
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3" "center">
+      <form>
+        <div class="form-inline">
+          <label for="name">Name:</label>
+          <input type="name" class="form-control" id="email">
+        </div>
+        <div class="form-inline">
+          <label for="email">Email address:</label>
+          <input type="email" class="form-control" id="email">
+        </div>
+        <div class="form-inline">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="pwd">
+        </div>
+        <div class="checkbox">
+          <label><input type="checkbox"> Remember me</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+    </div>
+  </div>
+
+</body>
 </html>
